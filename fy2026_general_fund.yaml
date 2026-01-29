@@ -1,0 +1,201 @@
+meta:
+  jurisdiction: Fairfax County, VA
+  fiscal_year: 2026
+  fund: General Fund
+  total_disbursements: 5710759192
+  source:
+    document: FY 2026 Fairfax County Adopted Budget Plan
+    volume: 1
+    page: 10
+    title: "General Fund Disbursements – Where It Goes"
+
+categories:
+  - key: schools
+    name: Schools
+    percent: 51.4
+    children:
+      - key: school_operating
+        name: Operating
+        amount_millions: 2703.1
+      - key: school_debt
+        name: Debt Service
+        amount_millions: 215.6
+      - key: school_capital
+        name: Capital
+        amount_millions: 15.6
+
+  - key: public_safety
+    name: Public Safety
+    percent: 12.2
+    children:
+      - key: police
+        name: Police
+        amount_millions: 290.5
+      - key: fire
+        name: Fire & Rescue
+        amount_millions: 272.7
+      - key: sheriff
+        name: Sheriff
+        amount_millions: 57.3
+      - key: other_public_safety
+        name: Other
+        amount_millions: 75.9
+
+  - key: health_welfare
+    name: Health & Welfare
+    percent: 10.9
+    children:
+      - key: community_services_board
+        name: Community Services Board
+        amount_millions: 184.4
+
+      - key: family_services
+        name: Family Services
+        amount_millions: 180.3
+
+      - key: neighborhood_community_services
+        name: Neighborhood & Community Services
+        amount_millions: 116.4
+
+      - key: health
+        name: Health
+        amount_millions: 92.4
+
+      - key: other_health_welfare
+        name: Other
+        amount_millions: 49.2
+
+
+  - key: fringe_benefits
+    name: Fringe Benefits
+    percent: 10.6
+
+  - key: parks_libraries
+    name: Parks & Libraries
+    percent: 1.3
+    children:
+      - key: parks
+        name: Parks
+        amount_millions: 36.8
+      - key: libraries
+        name: Libraries
+        amount_millions: 36.5
+
+  - key: public_works
+    name: Public Works
+    percent: 1.6
+    children:
+      - key: facilities_management
+        name: Facilities Management
+        amount_millions: 73.1
+
+      - key: other_public_works
+        name: Other
+        amount_millions: 20.2
+
+  - key: reserves
+    name: Reserves*
+    percent: 0.0
+    amount_millions: 0.0
+    notes: >
+      Disbursements to reserves include contributions to the Revenue
+      Stabilization Fund and the Economic Opportunity Reserve, but do not
+      include contributions to the Managed Reserve.
+
+  - key: county_debt
+    name: County Debt
+    percent: 2.8
+    amount_millions: 158.0
+
+  - key: legislative_executive
+    name: Legislative–Executive
+    percent: 0.9
+    children:
+      - key: county_attorney
+        name: County Attorney
+        amount_millions: 11.3
+
+      - key: county_executive
+        name: County Executive
+        amount_millions: 9.3
+
+      - key: board_of_supervisors
+        name: Board of Supervisors
+        amount_millions: 8.1
+
+      - key: other_legislative_executive
+        name: Other
+        amount_millions: 24.8
+
+  - key: judicial_administration
+    name: Judicial Administration
+    percent: 1.0
+    children:
+      - key: sheriff
+        name: Sheriff
+        amount_millions: 26.2
+
+      - key: circuit_court
+        name: Circuit Court
+        amount_millions: 15.4
+
+      - key: other_judicial_administration
+        name: Other
+        amount_millions: 18.4
+
+  - key: capital
+    name: Capital
+    percent: 0.6
+    amount_millions: 32.0
+
+  - key: contributories_grants
+    name: Contributories / Grants
+    percent: 0.5
+    children:
+      - key: contributory_fund
+        name: Contributory Fund
+        amount_millions: 20.6
+
+      - key: federal_state_grants
+        name: Federal / State Grants
+        amount_millions: 5.3
+
+  - key: community_development_transportation
+    name: Community Development & Transportation
+    percent: 3.4
+    children:
+      - key: metro
+        name: Metro
+        amount_millions: 63.0
+
+      - key: county_transit
+        name: County Transit
+        amount_millions: 46.6
+
+      - key: housing_community_development
+        name: Housing and Community Development
+        amount_millions: 42.6
+
+      - key: other_community_development_transportation
+        name: Other
+        amount_millions: 43.4
+
+  - key: central_services
+    name: Central Services
+    percent: 2.8
+    children:
+      - key: information_technology
+        name: Information Technology
+        amount_millions: 43.5
+
+      - key: tax_administration
+        name: Tax Administration
+        amount_millions: 37.4
+
+      - key: county_insurance
+        name: County Insurance
+        amount_millions: 24.5
+
+      - key: other_central_services
+        name: Other
+        amount_millions: 52.5
